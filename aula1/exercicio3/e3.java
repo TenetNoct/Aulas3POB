@@ -1,5 +1,3 @@
-package aula1.exercicio3;
-
 import java.util.Scanner;
 
 public class e3 {

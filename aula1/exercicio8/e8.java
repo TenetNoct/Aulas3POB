@@ -1,5 +1,3 @@
-package aula1.exercicio8;
-
 import java.util.Scanner;
 
 public class e8 {

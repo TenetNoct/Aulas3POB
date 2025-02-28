@@ -1,7 +1,4 @@
-package aula1.exercicio6;
-
 import java.util.Scanner;
-
 
 public class e6 {
     public static void main(String[] args) {
