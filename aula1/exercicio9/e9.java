@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class e9 {
     public static void main(String[] args) {
         Scanner scanf = new Scanner(System.in);
