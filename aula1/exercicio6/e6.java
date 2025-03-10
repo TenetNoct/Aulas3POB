@@ -1,3 +1,8 @@
+// Crie um programa que faça o desconto do INSS
+
+package aula1.exercicio6;
+
+
 import java.util.Scanner;
 
 public class e6 {

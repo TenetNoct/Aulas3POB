@@ -1,3 +1,7 @@
+// Crie um programa que leia dois números inteiros e imprima a soma deles.
+
+package aula1.exercicio1;
+
 import java.util.Scanner;
 
 public class e1 {

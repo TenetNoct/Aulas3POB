@@ -1,3 +1,7 @@
+// Calcule a área e perímetro de um retângulo;
+
+package aula1.exercicio7;
+
 import java.util.Scanner;
 
 public class e7 {

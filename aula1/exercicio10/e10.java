@@ -1,9 +1,12 @@
+package aula1.exercicio10;
+
+
 import java.util.Scanner;
 
 // No exercício 10 decidi tomar a iniciativa de tentar testar coisas diferentes 
 // dos outros códigos então fiz a busca de como quebrar Strings 
 // aplicar funções que aqui são chamadas de métodos 
-
+// Distância euclidiana é a distância entre dois pontos em um plano cartesiano
 
 public class e10 {
 

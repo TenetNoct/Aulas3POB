@@ -1,3 +1,7 @@
+// Crie um programa que calcule a área de um círculo, dado o raio.
+
+package aula1.exercicio2;
+
 import java.util.Scanner;
 
 public class e2 {
