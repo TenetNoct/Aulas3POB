@@ -1,3 +1,8 @@
+// Crie um programa que leia 3 notas de um aluno e calcule a média final.
+
+package aula1.exercicio4;
+
+
 import java.util.Scanner;
 
 public class e4 {

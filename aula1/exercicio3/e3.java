@@ -1,3 +1,8 @@
+// Crie um programa que converta uma temperatura em Celsius para Fahrenheit. A fórmula de conversão é: F = C * 9/5 + 32
+
+package aula1.exercicio3;
+
+
 import java.util.Scanner;
 
 public class e3 {

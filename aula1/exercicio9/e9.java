@@ -1,5 +1,8 @@
-import java.util.Scanner;
+// Calcule a conversão do Dolar para Reais
 
+package aula1.exercicio9;
+
+import java.util.Scanner;
 
 public class e9 {
     public static void main(String[] args) {

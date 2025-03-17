@@ -1,3 +1,8 @@
+// Crie um programa que leia a idade de uma pessoa em anos e mostre a quantidade de dias que ela viveu.
+
+package aula1.exercicio5;
+
+
 import java.util.Scanner;
 
 public class e5 {
