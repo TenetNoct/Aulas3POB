@@ -1,0 +1,6 @@
+public interface Exibivel {
+    /**
+     * Exibe os dados detalhados do objeto.
+     */
+    void exibirDados();
+}
