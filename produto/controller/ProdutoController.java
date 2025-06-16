@@ -34,6 +34,18 @@ public class ProdutoController {
         System.out.println("Produto removido: " + nome);
     }
 
+    public void atualizarProduto(List<Produto> produtos, String nome, String novoNome, double novoPreco) {
+        for (Produto produto : produtos) {
+            if (produto.getNome().equals(nome)) {
+                produto.setNome(novoNome);
+                produto.setPreco(novoPreco);
+                System.out.println("Produto atualizado: " + nome + " para novo nome: " + novoNome + " e novo preço: " + novoPreco);
+                return;
+            }
+        }
+        System.out.println("Produto não encontrado: " + nome);
+    }
+
     public void listarProdutos(List<Produto> produtos) {
         System.out.println("Listando produtos...");
         for (Produto produto : produtos) {

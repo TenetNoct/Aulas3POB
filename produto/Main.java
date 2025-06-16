@@ -39,6 +39,16 @@ public class ProdutoView {
                 case 3:
                     controller.listarProdutos(produtos);
                     break;
+                case 4:
+                    System.out.print("Nome do produto para atualizar: ");
+                    String nomeAtualizar = scanner.nextLine();
+                    System.out.print("Novo nome do produto: ");
+                    String novoNome = scanner.nextLine();
+                    System.out.print("Novo preço do produto: ");
+                    double novoPreco = scanner.nextDouble();
+                    scanner.nextLine(); // Limpa o buffer
+                    controller.atualizarProduto(produtos, nomeAtualizar, novoNome, novoPreco);
+                    break;
                 case 0:
                     System.out.println("Saindo...");
                     scanner.close();
