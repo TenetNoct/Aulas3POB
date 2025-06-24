@@ -1,4 +1,4 @@
-package produto.view;
+package produto;
 
 import produto.controller.ProdutoController;
 import produto.model.Produto;
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ProdutoView {
+public class ProdutoMain {
     public static void main(String[] args) {
         ProdutoController controller = new ProdutoController();
         List<Produto> produtos = new ArrayList<>();
@@ -29,7 +29,9 @@ public class ProdutoView {
                     String nome = scanner.nextLine();
                     System.out.print("Preço do produto: ");
                     double preco = scanner.nextDouble();
-                    controller.adicionarProduto(produtos, nome, preco);
+                    System.out.print("Quantidade do produto: ");
+                    double qtd = scanner.nextDouble();
+                    controller.adicionarProduto(produtos, nome, qtd, preco);
                     break;
                 case 2:
                     System.out.print("Nome do produto para remover: ");

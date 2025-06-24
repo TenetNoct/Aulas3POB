@@ -9,8 +9,8 @@ public class ProdutoController {
         // Construtor vazio
     }
 
-    public void adicionarProduto(List<Produto> produtos, String nome, double preco) {
-        Produto novoProduto = new Produto(++id, nome, preco);
+    public void adicionarProduto(List<Produto> produtos, String nome, double preco, double qtd) {
+        Produto novoProduto = new Produto(++id, nome, qtd, preco);
         produtos.add(novoProduto);
         System.out.println("Produto adicionado: " + nome + " com preço: " + preco);
     }

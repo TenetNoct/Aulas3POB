@@ -3,12 +3,14 @@ package produto.model;
 public class Produto{
     private int id;
     private String nome;
-    private int qtd;
-
-    public Produto(int id, String nome, int qtd){
+    private double qtd;
+    private double preco;
+    
+    public Produto(int id, String nome, double qtd, double preco){
         this.id = id;
         this.nome = nome;
         this.qtd = qtd;
+        this.preco = preco;
     }
 
     public int getId() {
@@ -27,11 +29,19 @@ public class Produto{
         this.nome = nome;
     }
 
-    public int getQtd() {
+    public double getQtd() {
         return qtd;
     }
-
-    public void setQtd(int qtd) {
+    
+    public void setQtd(double qtd) {
         this.qtd = qtd;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
     }
 }

@@ -10,6 +10,10 @@ public class Main {
         TemperaturaView view = new TemperaturaView();
         TemperaturaController controller = new TemperaturaController(model, view);
 
-        controller.iniciar();
+        try {
+            controller.iniciar();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
